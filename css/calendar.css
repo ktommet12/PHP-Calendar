@@ -1,0 +1,39 @@
+.calendar-container{
+  width:942px;  
+}
+.calendar{
+    width: 100%;
+}
+.calendar, td, tr{
+    border-collapse: collapse;
+}
+.calendar td{
+    border: 1px solid #000;
+}
+.month-header{
+    margin: 0;
+    padding: 15px 0;
+}
+#month-header{
+     font-size: 2rem;
+     margin: 0 10px;
+}
+.calendar-day{
+    height: 75px;
+}
+.day-of-week{
+    width: 14.28%;
+}
+#prev-month, #next-month{
+    border: 1px solid #0000FF;
+    padding: 10px;
+    border-radius: 5px;
+}
+#prev-month a, #next-month a{
+    text-decoration: none;
+}
+#prev-month:hover, #next-month:hover{
+    background: #7FFF00;
+    border-color: #7FFF00;
+    color: #FFF;
+}
